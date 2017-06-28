@@ -5,6 +5,13 @@
     $datos = array('xavier','pepe');
 
     foreach($datos as $key){
-        echo $key;
+        if($key =='xavier'){
+            echo "fat ".$key;
+        }else{
+            echo "not fat".$key;
+        }
+        
     }
+
+    
 ?>
