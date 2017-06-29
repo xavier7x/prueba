@@ -40,7 +40,8 @@ CREATE TABLE `crm_oportunidades` (
   `fecha_estimada_facturacion` date DEFAULT NULL,
   `bant` varchar(150) DEFAULT NULL,
   `monto_total` float(11,2) NOT NULL,
-  `sys_date` datetime NOT NULL
+  `sys_date` datetime NOT NULL,
+  `sys_date2` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
